@@ -10,8 +10,9 @@
         body {width: 980px; margin: auto; text-align: center; }
         * {font-family: "돋움", Arial, Helvetica, sans-serif}
         h2{color: rgb(51, 51, 51); background: rgb(209, 149, 90, 0.7); text-align: center; font-size: 35px;}
+        h3{font-size: 18px;}
         ul { list-style-type: none; margin: 0;padding: 0;  overflow: hidden; }
-        li {float: left;}
+        li {float: left; font-size: 18px;}
         li a {  display: block; color:black; text-align: left; padding: 14px 16px;text-decoration: none;}
         /* Change the link color to #111 (black) on hover */
         table {width: 100%;}
@@ -19,6 +20,7 @@
         th, td {padding: 10px;text-align: left;}
         th {background: rgb(209, 149, 90); color:white;}
         nav{font-weight: bold;}
+        form{font-size: 18px;}
 
     </style>
 </head>
@@ -85,16 +87,19 @@
         </div>
     <article class="media w3-large w3-text-indigo w3-margin-tops"></article><h2 id="좋아하는 동영상"> favorite media <br>
         <div class="media" width="65%" height="300px" >
-            <video class="w3-col s6 w3-border w3-padding-large" width="50%" src="./images01/media2.mp4" autoplay="True" controls="True"></video>
+            <div class="w3-row">
+                <video class="w3-col s6 w3-border w3-padding-large" width="50%" src="./images01/media2.mp4" autoplay="True" controls="True"></video>
+            </div>
         </div>
+    </article>
 </section>
 
 <aside class="right">
-    <div class="login">
-        <h3 >Log In</h3>
-            <form action="#" class="w3-padding-large " > <br>
-                            아이디 :<input type="text" name="id"/> <br/> <br>
-                            패스워드:<input type="password" name="pass"/> <br /><br />
+    <div class="login"> <br>
+        <h3 >Log In</h3> 
+            <form action="#" class="w3-padding-large " > 
+                    아이디 :<input type="text" name="id"/> <br/> <br>
+                    패스워드:<input type="password" name="pass"/> <br /><br />
                 <input type="submit" value="로그인" /> &nbsp;
                 <input type="reset" value="초기화" /><br /> <br>
                 <a href="register.html" target="_blank" id="register">회원가입</a>
@@ -108,7 +113,6 @@
             <li class="w3-bar-item w3-button w3-padding-small"><a href="https://blog.naver.com/acb4287/222247812256">블로그, [노래] Let Me Down Slow, New Hope Club </a></li>
             <li class="w3-bar-item w3-button w3-padding-small "><a href="https://blog.naver.com/acb4287/222207586752">블로그, [노래] everything, 10cm</a></li>
         </ul>
-</div>
  </aside>
 </div>  
 <footer>
@@ -134,7 +138,7 @@
 		</div>
 		<div class="w3-col s4 w3-container" >
 			<h5> About Us</h5>
-			  <a href="#" class="btn btn-block btn-base btn-icon fa-check"><span>Try it now</span></a>
+			  <a href="#" class="btn btn-block btn-base btn-icon fa-check" ><span>Try it now</span></a>
 			
 		</div>
     </div>
