@@ -1,4 +1,3 @@
-# week06_work.html
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -6,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heejung's self-introduction webpage</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://www.w3schools.com/w3css/4/w3.css">
     <style>
         body {width: 980px; margin: auto; text-align: center; }
@@ -29,7 +27,6 @@
         <img src="./images01/myphoto.jpg" alt="" width="20%">
         <h1>Heejung Lim</h1> <br>
     </header>
-</div>
 <div id="profile">
     동아대학교 경영정보학과 20학번 임희정 
     <hr color="tan" padding="100px"> 
@@ -69,16 +66,16 @@
         </tr>
     </table>
     <br>
-    <article class="media w3-large w3-text-indigo w3-margin-tops"></article><h2 id="수업"> my subject</h3> 
+    <article class="media w3-large w3-text-indigo w3-margin-tops"></article><h2 id="수업"> my subject
     <hr id="수업">
     <iframe src="./myinformation.html" frameborder="0" width="65%" height="300px">
         지원되지 않는 브라우저입니다
     </iframe>
-    <article class="media w3-large w3-text-indigo w3-margin-tops"></article><h2 id="좋아하는 노래(동영상)"> favorite song</h3> <br>
+    <article class="media w3-large w3-text-indigo w3-margin-tops"></article><h2 id="좋아하는 노래(동영상)"> favorite song <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/7ioGCoB-8DY" title="YouTube video player"
          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
          allowfullscreen></iframe>
-    <article class="media w3-large w3-text-indigo w3-margin-tops"></article><h2 id="좋아하는 사진"> favorite photo</h3> <br>
+    <article class="media w3-large w3-text-indigo w3-margin-tops"></article><h2 id="좋아하는 사진"> favorite photo<br>
         <div class="photo" >
             <div class="w3-row">
               <img class="w3-col s3 w3-border w3-margin"  src="./images01/photo1.jpg" alt="사진1" />
@@ -86,7 +83,7 @@
               <img class="w3-col s3 w3-border w3-margin" src="./images01/photo3jpg.jpg" alt="사진3" />
             </div>
         </div>
-    <article class="media w3-large w3-text-indigo w3-margin-tops"></article><h2 id="좋아하는 동영상"> favorite media</h3> <br>
+    <article class="media w3-large w3-text-indigo w3-margin-tops"></article><h2 id="좋아하는 동영상"> favorite media <br>
         <div class="media" width="65%" height="300px" >
             <video class="w3-col s6 w3-border w3-padding-large" width="50%" src="./images01/media2.mp4" autoplay="True" controls="True"></video>
         </div>
@@ -143,5 +140,3 @@
     </div>
 </footer>
 <br> <br>
-</body>
-</html>
